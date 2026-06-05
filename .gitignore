@@ -1,0 +1,77 @@
+# =============================================================================
+# MEP Drawing Interpretation System — .gitignore
+# =============================================================================
+
+# --- Secrets & Environment ---
+.env
+# Keep the template
+!.env.example
+
+# --- Runtime Output Directories (keep folders, ignore contents) ---
+# Uploaded PDFs
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Rendered page images (large PNG files)
+assets/rendered_pages/*
+!assets/rendered_pages/.gitkeep
+
+# Annotated grounding images
+outputs/annotations/*
+!outputs/annotations/.gitkeep
+
+# Cached document repositories (JSON blobs, can be large)
+outputs/repositories/*
+!outputs/repositories/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+.installed.cfg
+lib/
+lib64/
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# --- IDE & Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.log
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Temporary / OS ---
+*.tmp
+*.bak
+*.orig
+desktop.ini
