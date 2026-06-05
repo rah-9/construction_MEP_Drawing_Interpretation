@@ -58,7 +58,7 @@ ENV/
 .venv/
 .env/
 
-# --- IDE & Editor ---
+
 .vscode/
 .idea/
 *.swp
@@ -67,7 +67,7 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# --- Testing & Coverage ---
+
 .pytest_cache/
 .coverage
 htmlcov/
