@@ -11,6 +11,9 @@
 system_architecture_map.json
 system_architecture_map.md
 
+# --- Decision Log ---
+decision_log.md
+
 # --- Runtime Output Directories (keep folders, ignore contents) ---
 # Uploaded PDFs
 assets/uploads/*
