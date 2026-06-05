@@ -7,6 +7,10 @@
 # Keep the template
 !.env.example
 
+# --- Architecture Maps ---
+system_architecture_map.json
+system_architecture_map.md
+
 # --- Runtime Output Directories (keep folders, ignore contents) ---
 # Uploaded PDFs
 assets/uploads/*
