@@ -71,10 +71,10 @@ htmlcov/
 coverage.xml
 *.log
 
-# --- Streamlit ---
+
 .streamlit/secrets.toml
 
-# --- Temporary / OS ---
+
 *.tmp
 *.bak
 *.orig
