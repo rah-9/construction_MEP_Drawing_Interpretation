@@ -178,10 +178,3 @@ python -m unittest discover -s tests
 ```
 
 ---
-
-## 🛡️ Common Question Categories to Query
-* **Visual Counts**: *"How many supply diffusers are located in the drawing area?"*
-* **Symbol Lookup**: *"What does CD-1 mean on the legend sheet?"*
-* **Design Details**: *"What copper pipe specifications apply under general note 3?"*
-* **Schedule Reference**: *"What CFM capacity is configured for FCU-1?"*
-* **Revision History**: *"What revisions are registered inside the title block?"*
